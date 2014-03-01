@@ -13,15 +13,29 @@ h1{
 		li{
 			@include inline-block();
 			@include rem("margin", 0, 10, 10, 10);
+			@include rem("width", 160);
+			@include rem("height", 101);
 			position:relative;
 
+			a{
+				
+			}
+
 			.icon{
-				display:block;
+				@include hide-text();
 				text-align:center;
 				position:absolute;
-				z-index:2;
-				left:0;
-				top:0;
+				z-index:12;
+				left:35%;
+				top:25%;
+				background:url(../img/play-icon.png) no-repeat;
+				@include retina("../img/play-icon@2x.png", 40, 40);
+				@include rem("background-size", 40, 40);
+				width:42px;
+				height:42px;
+				@include opacity(0.8);
+				margin: 0 auto;
+				display:block;
 			}
 
 			h2{

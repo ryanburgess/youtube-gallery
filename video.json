@@ -1,6 +1,6 @@
 {"videos": [
 	{
-		"section":"tutorials",
+		"section":"what's new",
 		"video_id":[
 			"Pjn6YkCY2yA",
 			"Rq_mEcWvCik"
@@ -9,7 +9,14 @@
 	{
 		"section":"tips",
 		"video_id":[
-			"Pjn6YkCY2yA",
+			"DuvW9VzQH18",
+			"fDNMcHaMCZQ"
+		]
+	},
+	{
+		"section":"stories",
+		"video_id":[
+			"KzKXdtv_eX8",
 			"Rq_mEcWvCik"
 		]
 	}

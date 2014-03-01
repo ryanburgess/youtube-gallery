@@ -125,14 +125,34 @@ h1 {
     *display: inline;
     margin: 0px 10px 10px 10px;
     margin: 0rem 0.625rem 0.625rem 0.625rem;
+    width: 160px;
+    width: 10rem;
+    height: 101px;
+    height: 6.3125rem;
     position: relative; }
     .videos ul li .icon {
-      display: block;
+      position: relative;
+      text-indent: -99999px;
+      display: inline-block;
       text-align: center;
       position: absolute;
-      z-index: 2;
-      left: 0;
-      top: 0; }
+      z-index: 12;
+      left: 35%;
+      top: 25%;
+      background: url(../img/play-icon.png) no-repeat;
+      background-size: 40px 40px;
+      background-size: 2.5rem 2.5rem;
+      width: 42px;
+      height: 42px;
+      opacity: 0.8;
+      filter: alpha(opacity=80);
+      margin: 0 auto;
+      display: block; }
+      @media (min--moz-device-pixel-ratio: 1.3), (-o-min-device-pixel-ratio: 2.6/2), (-webkit-min-device-pixel-ratio: 1.3), (min-device-pixel-ratio: 1.3), (min-resolution: 1.3dppx) {
+        .videos ul li .icon {
+          background-image: url("../img/play-icon@2x.png");
+          background-size: 40px 40px;
+          background-size: 2.5rem 2.5rem; } }
     .videos ul li img {
       width: 160px;
       width: 10rem; }

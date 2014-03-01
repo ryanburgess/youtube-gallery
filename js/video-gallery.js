@@ -46,6 +46,7 @@
                 var video_id = videos[i].video_id;
 
                 var className = section.toLowerCase();
+                className = className.replace("'", "");
                 className = className.replace(" ", "-");
 
                 var sectionTitle = section.charAt(0).toUpperCase() + section.slice(1);
@@ -55,7 +56,7 @@
 
                 for(var a = 0; a < videos[i].video_id.length; a++){
                    var vidId = videos[i].video_id[a];
-                   ytThumbs(section, vidId)
+                   ytThumbs(className, vidId)
                 }
 
                 html += "</ul>";
