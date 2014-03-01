@@ -8,8 +8,7 @@
     (min-resolution: 144dpi),\
     (min-resolution: 1.5dppx)";
     
-   // var ytThumbs = function(vidId){
-    function ytThumbs(vidId){
+    function ytThumbs(section, vidId){
         var imgUrl;
         var vidTitle;
         $.ajax({
@@ -30,13 +29,6 @@
 
               }
         });
-        
-        //return vidTitle;
-    }
-
-    function test(value){
-        var newvalue = value;
-        return newvalue;
     }
 
     $.ajax({
